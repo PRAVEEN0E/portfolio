@@ -7,7 +7,7 @@ const Footer = () => {
         <p className="text-gray-600 dark:text-gray-400 font-medium text-sm sm:text-base">
           Copyright © 2026 Praveen
         </p>
-        <p className="text-gray-500 dark:text-gray-500 text-xs sm:text-sm flex items-center gap-1 flex-wrap justify-center">
+        <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm flex items-center gap-1 flex-wrap justify-center">
           Built with <span className="text-blue-500 font-semibold">React</span> and <span className="text-teal-400 font-semibold">Tailwind CSS</span>
         </p>
       </div>
