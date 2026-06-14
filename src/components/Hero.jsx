@@ -30,7 +30,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-4 sm:mb-6">
-            Praveen Eswaramoorthi
+            Praveen 
           </h1>
         </motion.div>
 
