@@ -67,7 +67,7 @@ const Navbar = () => {
             aria-label="Toggle theme"
             className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-yellow-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all"
           >
-            {isDark ? <FaSun size={16} /> : <FaMoon size={16} />}
+            {isDark ? <FaSun size={16} aria-hidden="true" /> : <FaMoon size={16} aria-hidden="true" />}
           </button>
         </div>
 
@@ -78,14 +78,14 @@ const Navbar = () => {
             aria-label="Toggle theme"
             className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-yellow-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all"
           >
-            {isDark ? <FaSun size={16} /> : <FaMoon size={16} />}
+            {isDark ? <FaSun size={16} aria-hidden="true" /> : <FaMoon size={16} aria-hidden="true" />}
           </button>
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
             className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all"
           >
-            {isMobileMenuOpen ? <FaTimes size={16} /> : <FaBars size={16} />}
+            {isMobileMenuOpen ? <FaTimes size={16} aria-hidden="true" /> : <FaBars size={16} aria-hidden="true" />}
           </button>
         </div>
       </div>

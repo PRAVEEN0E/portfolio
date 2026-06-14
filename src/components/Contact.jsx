@@ -79,7 +79,7 @@ const Contact = () => {
                 className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:border-gray-400 dark:hover:border-gray-500 hover:shadow-md transition-all group"
               >
                 <div className="p-2.5 sm:p-3 bg-gray-100 dark:bg-gray-800 rounded-lg text-gray-800 dark:text-white group-hover:bg-gray-800 group-hover:text-white dark:group-hover:bg-white dark:group-hover:text-gray-900 transition-colors shrink-0">
-                  <FaGithub size={20} />
+                  <FaGithub size={20} aria-hidden="true" />
                 </div>
                 <div className="min-w-0">
                   <div className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">GitHub</div>
@@ -94,7 +94,7 @@ const Contact = () => {
                 className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:border-blue-400 dark:hover:border-blue-500 hover:shadow-md transition-all group"
               >
                 <div className="p-2.5 sm:p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg text-blue-600 dark:text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors shrink-0">
-                  <FaLinkedin size={20} />
+                  <FaLinkedin size={20} aria-hidden="true" />
                 </div>
                 <div className="min-w-0">
                   <div className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">LinkedIn</div>
@@ -109,7 +109,7 @@ const Contact = () => {
                 className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:border-red-400 dark:hover:border-red-500 hover:shadow-md transition-all group"
               >
                 <div className="p-2.5 sm:p-3 bg-red-50 dark:bg-red-900/20 rounded-lg text-red-500 dark:text-red-400 group-hover:bg-red-500 group-hover:text-white transition-colors shrink-0">
-                  <FaEnvelope size={20} />
+                  <FaEnvelope size={20} aria-hidden="true" />
                 </div>
                 <div className="min-w-0">
                   <div className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">Email</div>
@@ -185,7 +185,7 @@ const Contact = () => {
               >
                 {status === 'sending' ? (
                   <>
-                    <svg className="animate-spin h-4 w-4 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none">
+                    <svg className="animate-spin h-4 w-4 sm:h-5 sm:w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"/>
                     </svg>
@@ -193,7 +193,7 @@ const Contact = () => {
                   </>
                 ) : (
                   <>
-                    <FaPaperPlane size={14} />
+                    <FaPaperPlane size={14} aria-hidden="true" />
                     Send Message
                   </>
                 )}

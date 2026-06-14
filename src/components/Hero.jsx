@@ -92,7 +92,7 @@ const Hero = () => {
             download="Praveen_Resume.pdf"
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium rounded-full text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-purple-500/30 transition-all transform hover:-translate-y-1"
           >
-            <FaDownload size={14} />
+            <FaDownload size={14} aria-hidden="true" />
             Download CV
           </a>
         </motion.div>

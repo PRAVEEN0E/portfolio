@@ -80,6 +80,7 @@ const Skills = () => {
               >
                 <Icon
                   className={`text-3xl sm:text-5xl ${skill.color} group-hover:scale-110 sm:group-hover:scale-125 transition-transform duration-300`}
+                  aria-hidden="true"
                 />
                 <h3 className="text-xs sm:text-sm font-medium text-gray-300 text-center leading-tight">
                   {skill.name}

@@ -113,7 +113,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="flex items-center gap-2 px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 hover:scale-105 transition-all text-sm sm:text-base font-medium"
                 >
-                  <FaExternalLinkAlt size={12} />
+                  <FaExternalLinkAlt size={12} aria-hidden="true" />
                   Live Demo
                 </a>
                 <a
@@ -122,7 +122,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="flex items-center gap-2 px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl border border-white/10 hover:bg-white/5 transition-all text-sm sm:text-base font-medium"
                 >
-                  <FaGithub size={14} />
+                  <FaGithub size={14} aria-hidden="true" />
                   GitHub
                 </a>
               </div>
