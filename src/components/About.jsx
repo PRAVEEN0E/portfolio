@@ -28,7 +28,7 @@ const About = () => {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative group">
               <img
                 src="/profile.png"
-                alt="Praveen"
+                alt="Praveen Eswaramoorthi - Full Stack Developer"
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 border-2 border-white/10 rounded-2xl pointer-events-none"></div>
