@@ -43,7 +43,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
-              Hello! I'm Praveen, a passionate Full Stack Developer.
+              Hello! I'm Praveen Eswaramoorthi, a passionate Full Stack Developer.
             </h3>
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 leading-relaxed">
               I have a strong interest in web development and love building practical, user-centric projects. My journey in tech is driven by a deep curiosity for how things work and a desire to create impactful digital experiences.
